@@ -1,23 +1,23 @@
 const defaultConfig = {
-	username: "Excalith",
+	username: "gabe",
 	theme: {
-		backgroundColor: "#121317",
-		windowColor: "#1e212b",
-		glowColor: "#6b5cb157",
-		white: "#e2e2e2",
+		backgroundColor: "#1e212b",
+		windowColor: "#282a36",
+		glowColor: "#bd93f945",
+		white: "#bfbfbf",
 		gray: "#97989d",
-		black: "#16161e",
-		red: "#ec6183",
-		green: "#2ed8a2",
-		yellow: "#e8b195",
-		blue: "#2bc3de",
-		cyan: "#62e0e2",
-		magenta: "#e069aa",
-		violet: "#d1aff8",
-		orange: "#ff8800"
+		black: "#000000",
+		red: "#ff5555",
+		green: "#50fa7b",
+		yellow: "#f1fa8c",
+		blue: "#bd93f9",
+		magenta: "#ff79c6",
+		cyan: "#8be9fd",
+		violet: "#bd93f9",
+		orange: "#ffb86c"
 	},
 	wallpaper: {
-		url: "",
+		url: "https://i.imgur.com/OnxcMEM.jpg",
 		easing: "ease-in-out",
 		fadeIn: true,
 		blur: true
@@ -29,7 +29,7 @@ const defaultConfig = {
 	},
 	prompt: {
 		ctrlC: true,
-		placeholder: "command...",
+		placeholder: "query...",
 		placeholderColor: "gray",
 		userColor: "green",
 		atColor: "gray",
